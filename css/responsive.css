@@ -396,6 +396,20 @@
         margin-left: 40px;
         margin-right: 40px;
     }
+    .footer-widget ul li {
+      display: inline-block;
+      width: 50%;
+      margin-bottom: 12px;
+      margin-right: 9px;
+      margin-left: -16px;
+  }
+    .footer-widget ul li a:hover{
+    color: #F9B11A;
+    }
+    .footer-widget ul li a {
+      color: #878787;
+      text-transform: capitalize;
+    }
     .copyright-area {
         background: #202020;
         padding: 16px 16px;
