@@ -448,10 +448,11 @@ ul {
 .footer-social-icon span {
   color: #fff;
   display: block;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 600;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 15px;
+  display: inline-block;
 }
 .footer-social-icon a {
   color: #fff;
@@ -460,9 +461,9 @@ ul {
 }
 .footer-social-icon i {
   height: 40px;
-  width: 40px;
   line-height: 38px;
   border-radius: 50%;
+  margin-left: 67px;
 }
 .facebook-bg{
   color: #3B5998;
@@ -491,8 +492,9 @@ ul {
 }
 .footer-widget ul li {
   display: inline-block;
-  width: 50%;
+  width: 17%;
   margin-bottom: 12px;
+  margin-right: 100px;
 }
 .footer-widget ul li a:hover{
 color: #F9B11A;
@@ -500,6 +502,7 @@ color: #F9B11A;
 .footer-widget ul li a {
   color: #878787;
   text-transform: capitalize;
+  margin-left: -30px;
 }
 .subscribe-form {
   position: relative;
