@@ -95,10 +95,7 @@
     
     .speciality .box{
      display: block;
-     margin: auto!important;
-      height: 192px;
-      
-        
+     margin: auto!important; 
       }
       
       .speciality .box .img{
@@ -115,7 +112,7 @@
       }
       
       .speciality  .box .content img{
-        margin:1rem 0;
+        margin:1rem 0 5px 0!important;
       }
       .speciality  .box .content h3{
         font-size: 1.2rem;
@@ -125,10 +122,10 @@
       }
       
       .speciality  .box .content p{
-        font-size: 0.7rem;
+        font-size: 11px;
         color: #000000;
         font-weight: 400;
-        padding: 0 1rem;
+        padding: 0 0.8rem 15px 0.8rem !important;
     
       }
       
@@ -766,5 +763,9 @@
       border-radius: 50%;
       margin-left: 54px;
     }
+
+ }
+
+ @media(max-width:991px){
 
  }
