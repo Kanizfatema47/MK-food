@@ -25,8 +25,8 @@
     
     
     .navbar-brand .logo{
-        height: 60px !important;
-        width: 80px !important;
+        height: 60px ;
+        width: 80px ;
     
     }
      section{
@@ -64,7 +64,7 @@
       }
 
       .home .content h3 {
-        font-size: 1.6rem !important;
+        font-size: 1.6rem ;
         color: #1d1b1b;
         font-weight: 700;
     }
@@ -90,14 +90,17 @@
       
 
       .speciality .row{
-        margin-bottom: 0px !important;
+        margin-bottom: 0px;
+    }
+    .speciality .row .col-md-4{
+      margin-bottom: 10px;
     }
     
     .speciality .box{
-      width: 100%!important;
-      height: 100% !important;
+      width: 100%;
+      height: 100% ;
      display: block;
-     margin: auto!important; 
+     margin: auto; 
       }
       
       .speciality .box .img{
@@ -114,7 +117,7 @@
       }
       
       .speciality  .box .content img{
-        margin:1rem 0 5px 0!important;
+        margin:1rem 0 5px 0;
       }
       .speciality  .box .content h3{
         font-size: 1.2rem;
@@ -127,7 +130,7 @@
         font-size: 11px;
         color: #000000;
         font-weight: 400;
-        padding: 0 0.8rem 15px 0.8rem !important;
+        padding: 0 0.8rem 15px 0.8rem ;
     
       }
       
@@ -141,7 +144,7 @@
 
 
       .popular .row{
-        margin-bottom: 0 !important;
+        margin-bottom: 0 ;
       
       }
       .popular .row .col-md-4{
@@ -149,9 +152,9 @@
       }
       .popular  .box{
         display: block;
-        margin: auto!important;
-        width: 100%!important;
-      height: 100%!important;
+        margin: auto;
+        width: 100%;
+      height: 100%;
        
         padding:0.5rem;
         background:#fff;
@@ -213,13 +216,16 @@
     
     
    .gallery .row{
-     margin-bottom: 0px!important;
+     margin-bottom: -15px !important;
+   }
+   .gallery .row .col-md-4{
+     margin-bottom: 10px;
    }
     .gallery .box{
-      width: 100%!important;
-      height: 100% !important;
+      width: 100%;
+      height: 100% ;
       display: block;
-      margin: auto !important;
+      margin: auto ;
       border:0.5rem solid #fff;
       box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
       border-radius: .5rem;
@@ -228,8 +234,8 @@
     }
     
     .gallery .box img{
-      height:100%!important;
-      width:100%!important;
+      height:100%;
+      width:100%;
       object-fit: cover;
     }
     
@@ -277,12 +283,16 @@
       color: #fff;
     }
 
-
-
-    .review  .box{
+    .review  .box img{
+      height: 6rem;
+      width: 6rem;
+      border-radius: 50%;
+      border: 0.6rem solid #fff;
+      margin-top: -4rem;
+      object-fit: cover;
+      }
+      .review  .box{
         text-align: center;
-        width: 100%!important;
-        height: 100%!important;
         padding: 1rem;
         border: 0.5rem solid #fff;
         box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 30%);
@@ -293,16 +303,6 @@
         margin-left: auto;
         margin-right: auto;
       }
-      
-      .review  .box img{
-        height: 5rem;
-        width: 5rem;
-        border-radius: 50%;
-        border: 0.4rem solid #fff;
-        margin-top: -5rem;
-        object-fit: cover;
-        }
-      
       .review  .box h3{
         font-size: 1.2rem;
         color:#fff;
@@ -321,6 +321,32 @@
         padding:1rem 0;
         font-weight: 400;
       }
+
+
+    /* 
+      .review  .box:nth-of-type(2){
+        margin-top: 2rem;
+      }
+      
+      
+      .review  .box h3{
+        font-size: 1.2rem;
+        color:#fff;
+        font-weight: 600;
+      }
+      
+      .review  .box .stars i{
+        font-size: 1rem;
+        color:gold;
+        padding:.5rem 0;
+      }
+      
+      .review  .box p{
+        font-size: 0.8rem;
+        color:#eee;
+        padding:1rem 0;
+        font-weight: 400;
+      } */
 
     .order .box-2 form{
         margin-top:2rem;
@@ -346,12 +372,12 @@
       .single-cta i {
         color: #ea141b;
         font-size: 30px;
-        margin-left: 20px!important;
+        margin-left: 20px;
     }
 
     .footer-logo img {
-      width: 90px!important;
-      height: 120px !important;
+      width: 80px;
+      height: 60px ;
      
   }
     .footer-text p {
@@ -377,7 +403,7 @@
         /* width: 40px; */
         line-height: 35px;
         border-radius: 50%;
-        margin-left: 100px;
+        margin-left: 58px;
         
     }
     .footer-widget-heading h3 {
@@ -413,7 +439,7 @@
     .footer-widget ul li a {
       color: #878787;
       text-transform: capitalize;
-      margin-left: 0px !important;
+      margin-left: 0px ;
     }
     .copyright-area {
         background: #202020;
@@ -445,7 +471,7 @@
     }
 }
 
- @media (max-width: 768px){
+ /* @media (max-width: 768px){
       *{
         font-family: 'Nunito', sans-serif;
         margin:0; 
@@ -530,7 +556,7 @@
         color: #fff;
       }
       .speciality .row{
-        margin-bottom: 0px!important;
+        margin-bottom: 0px;
       }
       .speciality .row .col-md-4{
         margin-bottom: 5px !important;
@@ -776,4 +802,4 @@
 
  @media(max-width:991px){
 
- }
+ } */
