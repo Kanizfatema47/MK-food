@@ -94,8 +94,8 @@
     }
     
     .speciality .box{
-      width: 100%;
-      height: 100%;
+      width: 100%!important;
+      height: 100% !important;
      display: block;
      margin: auto!important; 
       }
@@ -150,8 +150,8 @@
       .popular  .box{
         display: block;
         margin: auto!important;
-        width: 100%;
-      height: 100%;
+        width: 100%!important;
+      height: 100%!important;
        
         padding:0.5rem;
         background:#fff;
@@ -216,8 +216,8 @@
      margin-bottom: 0px!important;
    }
     .gallery .box{
-      width: 100%;
-      height: 100%;
+      width: 100%!important;
+      height: 100% !important;
       display: block;
       margin: auto !important;
       border:0.5rem solid #fff;
@@ -228,8 +228,8 @@
     }
     
     .gallery .box img{
-      height:100%;
-      width:100%;
+      height:100%!important;
+      width:100%!important;
       object-fit: cover;
     }
     
@@ -281,8 +281,8 @@
 
     .review  .box{
         text-align: center;
-        width: 100%;
-        height: 100%;
+        width: 100%!important;
+        height: 100%!important;
         padding: 1rem;
         border: 0.5rem solid #fff;
         box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 30%);
@@ -573,7 +573,7 @@
     .popular .box img {
       height: 10rem;
       object-fit: cover;
-      width: 100%;
+      width: 100%!important;
       border-radius: .5rem;
     }
     .popular .box .price {
